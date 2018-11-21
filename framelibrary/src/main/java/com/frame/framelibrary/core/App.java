@@ -46,7 +46,6 @@ public class App extends Application {
         LogUtil.setLogLevel(LogUtil.LOG_LEVEL_ALL);
 
         MobSDK.init(this);
-        MobSDK.init(this);
     }
 
 //    //static 代码段可以防止内存泄露
