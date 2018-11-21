@@ -34,7 +34,7 @@ public class App extends Application {
         super.onCreate();
 
         //test
-        
+
         /**
          * 必须在 Application 的 onCreate 方法中执行 BGASwipeBackHelper.init 来初始化滑动返回
          * 第一个参数：应用程序上下文
@@ -45,6 +45,7 @@ public class App extends Application {
         BGASwipeBackHelper.init(this, null);
         LogUtil.setLogLevel(LogUtil.LOG_LEVEL_ALL);
 
+        MobSDK.init(this);
         MobSDK.init(this);
     }
 
