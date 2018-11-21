@@ -33,6 +33,8 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
 
+        //test
+        
         /**
          * 必须在 Application 的 onCreate 方法中执行 BGASwipeBackHelper.init 来初始化滑动返回
          * 第一个参数：应用程序上下文
